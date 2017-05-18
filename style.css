@@ -1,0 +1,39 @@
+.mygrid {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    
+    grid-template-columns: 130px 460px;
+    grid-template-rows;30px 50px 290px 40px;
+    grid-template-areas: 
+        "header header"
+            "nawigacja reklama"
+        "artykul reklama"
+        "footer footer";
+}
+
+.mygrid:hover {
+    opacity: 0.2;
+}
+
+.mygrid>* {
+    border: 1px dashed yellow;
+}
+header{
+    grid-area: header;
+}
+.nav{
+    grid-area: :navigacja;
+}
+.ads{
+    grid-area: reklama;
+}
+article{
+    grid-area: artykul;
+}
+footer{
+    grid-area: footer;
+}
+.mygrid:hover{
+    opacity: 0.2 ;
+}
