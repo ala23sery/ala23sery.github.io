@@ -1,39 +1,69 @@
 .mygrid {
-    width: 600px;
+    width: 600x;
     display: grid;
-    grid-gap: 10px;
-    
-    grid-template-columns: 130px 460px;
-    grid-template-rows;30px 50px 290px 40px;
+    grid-gap: 0px;
+    margin: auto;
+    grid-template-columns: 150px 460px;
+    grid-template-rows;30px 30px 460px 40px;
     grid-template-areas: 
-        "header header"
+        "block header"
             "nawigacja reklama"
-        "artykul reklama"
+        "nawigacja artykul"
         "footer footer";
 }
 
-.mygrid:hover {
-    opacity: 0.2;
-}
 
 .mygrid>* {
-    border: 1px dashed yellow;
+    border: 2px black;
+
+    background-size: auto
 }
 header{
     grid-area: header;
+    width: 700px;
+    color: white;
+    clear:left;
+    
+    
+    
 }
-.nav{
-    grid-area: :navigacja;
+.block {
+  
 }
-.ads{
-    grid-area: reklama;
+.block img {
+   width: 100px;
+    clear: right;
 }
 article{
     grid-area: artykul;
+    background-size: 600px;
+    color: white;
+    text-align: center;
+    width: 600px;
+    height: 700px;
+}
+.nav{
+    grid-area: :navigacja;
+    width: 20px;
+    height: 20px;
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+video{
+    grid-area: reklama;
+color: white;
+    width: 550px;
+    height: px;
+    
 }
 footer{
     grid-area: footer;
-}
-.mygrid:hover{
-    opacity: 0.2 ;
+    width:1500px;
+        color: white;
+    clear: center;
+    text-align: center
+
+    
 }
