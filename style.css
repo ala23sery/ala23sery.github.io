@@ -1,69 +1,95 @@
 .mygrid {
-    width: 600x;
+    width: 2360;
+    height: 1500;
     display: grid;
+    background-color: black;
+    
     grid-gap: 0px;
-    margin: auto;
     grid-template-columns: 150px 460px;
     grid-template-rows;30px 30px 460px 40px;
     grid-template-areas: 
-        "block header"
-            "nawigacja reklama"
-        "nawigacja artykul"
-        "footer footer";
+        "header header navigacja"
+            "main main main"
+        "grafika1 grafika2 grafika3"
+        "artykul artykul";
 }
 
-
-.mygrid>* {
-    border: 2px black;
-
-    background-size: auto
 }
 header{
     grid-area: header;
-    width: 700px;
-    color: white;
-    clear:left;
-    
-    
-    
+    background-color: white;
+    width:250px;
+    height: 90px;
+    color: black;   
 }
-.block {
-  
+
+
 }
-.block img {
-   width: 100px;
-    clear: right;
+nav{
+    grid-area: navigacja;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    width: 250;
+    height: 300;
 }
 article{
     grid-area: artykul;
     background-size: 600px;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: ;
     width: 600px;
-    height: 700px;
+    height: 200px;
 }
-.nav{
-    grid-area: :navigacja;
-    width: 20px;
-    height: 20px;
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
+.main{
+    width: 50px;
+    height: 50px;
+    margin: center;
+   
 }
-video{
-    grid-area: reklama;
-color: white;
-    width: 550px;
-    height: px;
+.grafika{
+   position: static;
+    width: 50%;
+     
+}
+.graphika1{
+    grid-area: graphika1:
+    
+}
+.graphika2{
+    grid-area: graphika2;
+    position: absolute;
+    top: 0;
+    right:0;
+   width: 20%;
+}
+.rysunek1{
+    width: 150px;
+    height: 300px;
+    margin: auto
+}
+.layout1{
+    width: 150px;
+    height: 300px;
+    
     
 }
 footer{
     grid-area: footer;
-    width:1500px;
-        color: white;
-    clear: center;
-    text-align: center
-
+    width:50%;
+        color: black;
+    font-family: inherit;
+    margin: right;
+   
+}
+.block {
+  width: 250px;
+    height:50px;
+    clear: right;
+    margin: auto;
     
+}
+.block img {
+   width: 100px;
+    clear: right;
 }
