@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CZEŚĆ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>vbngfnfghnfgbnghn</p>
+    <a href="http://behance.net">click here for fun</a>
+    <img src="http://farm1.static.makeupforever.com/sites/default/files/styles/slideshow__field_image_main__mobile/public/Slide6_4.jpg?itok=Pvul0zHc" alt="">
+</body>
+</html>
+
+<ul>
+    
+    <li>
+    item 1
+    <a href="http://behance.net">click here for fun</a>
+    </li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+</ul>

@@ -1,0 +1,91 @@
+.mygrid {
+    width: 1fr;
+    display: grid;
+    grid-gap:30px;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows;200px 300px 1fr;
+    grid-template-areas: 
+        "logo header1 header2"
+            "gallery1 gallery2 gallery3"
+        "ilustr1 ilustr2 ilustr3";
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    color: black;
+}
+    
+.logo{
+        grid-area: logo;
+    width: 550px;
+    height: 90px;
+    text-align: left
+    }
+    
+.header1{
+    grid-area: header1;
+    width: 150px;
+    height: 50px;
+    font-size:25px;
+    font-family: sans-serif;
+    margin: 20px;
+    
+}
+
+.header2{
+    grid-area: header2;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 25px;
+}
+    
+    
+}
+.gallery{
+position: relative;
+width: 100%;
+margin: 5px;
+text-align: center;
+}
+
+
+.gallery1 {
+grid-area: gallery1;
+}
+
+
+
+.gallery2 {
+grid-area: gallery2;
+}
+
+.gallery3 {
+grid-area: gallery3;
+}
+
+.ilustr{
+position: relative;
+width: 100%;
+text-align: center;
+}
+.ilustr1{
+    grid-area: ilustr1;
+    text-align: left;
+}
+.ilustr2{
+    grid-area: ilustr2;
+    text-align: left;
+}
+.ilustr3{
+    grid-area: ilustr3;
+    text-align: left;
+}
+
+
+
+

@@ -1,0 +1,68 @@
+.mygrid {
+    width: 1fr;
+    display: grid;
+   grid-gap:30px;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows;200px 300px 1fr;
+    grid-template-areas: 
+        "logo header1 header2"
+        "article article article"
+        "article article article";
+}
+
+}
+.header{
+    position: relative;
+    width: 100%;
+    color: black;
+}
+    
+.logo{
+        grid-area: logo;
+    text-align: left
+    }
+    
+.header1{
+    grid-area: header1;
+    width: 225px;
+    height: 50px;
+    font-size:25px;
+    font-family: sans-serif;
+    margin: 25px;
+    
+}
+
+.header2{
+    grid-area: header2;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 25px;
+}
+.article{
+    grid-area: article;
+    width: 250px;
+    height: 50px;
+    
+}
+    
+    
+}
+.gallery{
+position: relative;
+width: 100%;
+margin: 5px;
+border: 1px solid #ccc;
+text-align: center;
+}
+
+
+.gallery1 {
+grid-area: gallery1;
+    margin: 300px;
+}
+
+    
+}

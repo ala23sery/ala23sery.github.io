@@ -1,0 +1,78 @@
+.mygrid {
+    width: 1fr;
+    display: grid;
+   grid-gap:30px;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows;200px 300px 1fr;
+    grid-template-areas: 
+        "logo header1 header2"
+        "gallery1 gallery1 gallery1"
+        "footer footer footer";
+}
+
+}
+.header{
+    position: relative;
+    width: 100%;
+    color: black;
+}
+    
+.logo{
+        grid-area: logo;
+    width: 230px;
+    height: 70px;
+    text-align: left
+    }
+    
+.header1{
+    grid-area: header1;
+    width: 225px;
+    height: 50px;
+    font-size:25px;
+    font-family: sans-serif;
+    margin: 25px;
+    
+}
+
+.header2{
+    grid-area: header2;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 25px;
+}
+    
+    
+}
+.gallery{
+position: relative;
+width: 100%;
+border: 1px solid #ccc;
+text-align: center;
+}
+
+
+.gallery1 {
+grid-area: gallery1;
+}
+.gallery-text{
+    grid-area: :gallery-text;
+     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+    
+}
+footer{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
